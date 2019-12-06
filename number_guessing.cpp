@@ -22,11 +22,11 @@ int main()
         cin.ignore();
 
         if (yourGuess < hiddenNumber)
-            cout << "That is too low" << "\n";
+            cout << "That is too low" << endl;
         else if (yourGuess > hiddenNumber)
-            cout << "That is too high" << "\n";
+            cout << "That is too high" << endl;
     } while (yourGuess != hiddenNumber);
 
-    cout << "You guessed right: " << yourGuess << " == " << hiddenNumber << "\n";
+    cout << "You guessed right: " << yourGuess << " == " << hiddenNumber << endl;
     cin.get();
 }

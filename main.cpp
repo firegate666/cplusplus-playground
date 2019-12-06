@@ -9,6 +9,6 @@ int main()
     cout<<"Please enter a number: ";
     cin>> thisisanumber;
     cin.ignore();
-    cout<<"You entered: "<< thisisanumber <<"\n";
+    cout<<"You entered: "<< thisisanumber << endl;
     cin.get();
 }
